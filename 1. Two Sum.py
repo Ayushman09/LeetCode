@@ -5,7 +5,6 @@ class Solution(object):
         :type target: int
         :rtype: List[int]
         """
-        
         x = {}
         for i,num in enumerate(nums):
             z = target - num
