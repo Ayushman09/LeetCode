@@ -1,6 +1,6 @@
 from functools import cache
 
-def numberOfArithmeticSlices(self, nums: List[int]) -> int:
+def numberOfArithmeticSlices(nums) -> int:
         @cache
         def count(n):
             if cnt < 3: return 0
