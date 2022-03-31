@@ -1,4 +1,4 @@
-
+#leetcode HARD
 #cleanest binary search solution
 def splitArray(self, nums: List[int], m: int) -> int:
         def can_split(x: int) -> bool:
