@@ -8,7 +8,7 @@ def letterCombinations(self, digits: str) -> List[str]:
         self.dfs(digits, 0, dic, '', res)
         return res
     
-    def dfs(self, nums, index, dic, path, res):
+def dfs(self, nums, index, dic, path, res):
         if index >=len(nums):
             res.append(path)
             return
