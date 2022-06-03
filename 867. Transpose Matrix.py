@@ -8,4 +8,7 @@ def transpose(self, matrix: List[List[int]]) -> List[List[int]]:
             
             sol.append(tmp)
         
-        return sol
+        return sol 
+    
+    #one liner using Zip
+        #return list(zip(*matrix))
