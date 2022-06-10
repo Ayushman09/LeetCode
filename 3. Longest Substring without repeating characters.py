@@ -8,4 +8,4 @@ def lengthOfLongestSubstring(s: str) -> int:
             start = max(seen[letter] + 1, start)
         longest = max(longest, end - start + 1)
         seen[letter] = end    
-    return longest
+    return longest 
